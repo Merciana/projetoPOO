@@ -4,4 +4,5 @@ public class Mesa {
     int qtd_cadeiras;
     boolean status;
     Pessoa responsavel;
+    float numero;
 }
