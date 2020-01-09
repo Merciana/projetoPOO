@@ -1,8 +1,13 @@
 package Model;
 
 public class Pratos {
-    String tipo_do_prato;
-        String nome;
-        String id;
-        String ingredientes;
+    private String tipo_do_prato;
+    private String nome;
+    private String id;
+    private String[] ingredientes;
+    private Double valorDoPrato
+
+    public Double getValor(){
+        return this.valorDoPrato;
+    }
 }
