@@ -8,7 +8,7 @@ public class Comanda {
 
         for(int i = 0; i<pedidos.length; i++){
             Pedido um = pedidos[i];
-            total += um.calculo_de_vlaor;
+            total += um.calculo_de_valor();
         }
         return total;
     }

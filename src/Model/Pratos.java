@@ -5,7 +5,7 @@ public class Pratos {
     private String nome;
     private String id;
     private String[] ingredientes;
-    private Double valorDoPrato
+    private Double valorDoPrato;
 
     public Double getValor(){
         return this.valorDoPrato;
