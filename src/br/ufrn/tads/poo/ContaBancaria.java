@@ -3,7 +3,7 @@ package br.ufrn.tads.poo;
 import java.math.BigDecimal;
 
 public class ContaBancaria implements Banco{
-    private Double saldo = 0.0;
+     Double saldo = 0.0;
 
 
     @Override
@@ -13,9 +13,10 @@ public class ContaBancaria implements Banco{
 
     @Override
     public void transferencia(Banco destino, Double valor) {
-        if(this.saldo >= valor && valor > 0)
-            this.saldo -= valor;
+        if(this.saldo >= valor && valor > 0) {
+            this.saque(valor);
             destino.deposito(valor);
+        }
     }
 
     @Override
